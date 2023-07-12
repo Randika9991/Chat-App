@@ -1,0 +1,11 @@
+.clientLogin {
+    -fx-text-fill: white;
+}
+
+.vbox-text-color .label {
+    -fx-text-fill: white;
+}
+
+.clientControll{
+    -fx-text-style:Britannic Bold;
+}

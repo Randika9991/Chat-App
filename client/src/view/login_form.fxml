@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminAncPane" prefHeight="341.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="354.0" fitWidth="549.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/green-slate.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtlogin" layoutX="103.0" layoutY="289.0" prefHeight="42.0" prefWidth="253.0" style="-fx-background-color: #191E23;" styleClass="clientLogin" stylesheets="@../style/clientStyle.css">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font></TextField>
+      <Label layoutX="104.0" layoutY="262.0" prefHeight="26.0" prefWidth="215.0" text="Please Enter Your Name : " textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="371.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-login-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="191.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-user-48.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnlogin" layoutX="381.0" layoutY="289.0" mnemonicParsing="false" onAction="#btnloginOnAction" opacity="0.0" prefHeight="42.0" prefWidth="42.0" />
+      <Label layoutX="151.0" layoutY="51.0" prefHeight="42.0" prefWidth="230.0" text="join community." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Separator layoutX="30.0" layoutY="29.0" prefWidth="200.0" />
+      <Separator layoutX="30.0" layoutY="29.0" orientation="VERTICAL" prefHeight="200.0" />
+   </children>
+</AnchorPane>
